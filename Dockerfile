@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 RUN git clone https://github.com/YUG38/school-private.git
 
-WORKDIR /inter
+WORKDIR /school-private
 
 RUN npm install
 

@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/YUG38/school-private.git
+RUN git clone https://github.com/destroyer653100/yugisgay.git
 
-WORKDIR /school-private
+WORKDIR /yugisgay
 
 RUN npm install
 
